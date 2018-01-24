@@ -1,0 +1,54 @@
+::-webkit-scrollbar{ width: 2px; height: 2px}
+::-webkit-scrollbar-track-piece { background: 'bg.jpg';}
+::-webkit-scrollbar-thumb {background:  #696969; border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);}
+body{
+	background-image: url('ba.jpg');
+	background-size: 100%;
+}
+#gameName{
+	color: floralwhite;
+text-align: center;
+}
+#div{
+	position: absolute;
+	left: 90%;
+}
+#gener2{
+    text-align: center;
+}
+#regen{
+	color: aqua;
+	text-align: center;
+	font-size: 120%;
+}
+#answers{
+	text-align: center;
+}
+
+.parag{
+	color: aqua;
+	font-size: 150%;
+	
+}
+.radio{
+	color: aqua;	
+}
+#look{
+	position: absolute;
+	top: 10%;
+	left: 45%;
+}
+#list{
+	color: aqua;
+}
+.scroll {
+	opacity: 0.9;
+	overflow:auto;
+	width: 200px;
+	height: 200px;
+
+} 
+#boxWord{
+	color: aqua;
+	font-size: 110%
+}

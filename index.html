@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="dataBase.js"></script>
+	<script src='user.js'></script>
+	<script src='indexjs.js' defer></script>
+	
+</head>
+<body id='image'>
+	<div id="look">
+		<div><input type="text" id='login' placeholder="Введіть логін"></div>
+		<div><input type="text" id="password" placeholder="Введіть пароль"></div>
+		<button id="authorization">Авторизація</button>
+	</div>
+	<div id="none" style="display: none">
+		<h1 id='gameName'>Гра в слова</h1>
+		<div id='div'>
+			<button id="get2">Записати слова</button>
+			<button id='Support'>Тисни сюди</button>
+		</div>
+		<div id='gener2'>
+			<button id="gener">Почати гру</button>
+			<p id="regen">Слово</p>
+			<input type="text" placeholder="Введи відповідь" id="answer">
+			<button id=answer1>Перевірити</button>
+			<p id='timeout' class="parag">Часу залишилось: </p>
+			<lable class ='radio'>Питати англійські слова<input type="checkbox" id="askEng" ></lable>
+		</div>
+		<p id="askEzP"></p>
+		<p id ='result' class="parag"> </p>
+		<p id="topresult" class="parag"> </p>
+		<p id='continium' class="parag"> </p>	
+		<div class="scroll">
+		<p id='boxWord'>Список слів: </p>
+			<ol id="list" onmousedown="return false" onselectstart="return false">
+		</ol>
+		</div>
+	</div>	
+</body>
+</html>
